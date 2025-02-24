@@ -19,8 +19,8 @@ public class ApplicationTests {
 	@Test
 	public void sendSimpleMail() throws Exception {
 		SimpleMailMessage message = new SimpleMailMessage();
-		message.setFrom("1060589146@qq.com");
-		message.setTo("1060589146@qq.com");
+		message.setFrom("337507950@qq.com");
+		message.setTo("jay19950620@gmail.com");
 		message.setSubject("主题：这是一封测试邮件！");
 		message.setText("测试邮件内容");
 
